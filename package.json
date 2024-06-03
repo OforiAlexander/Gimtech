@@ -1,0 +1,16 @@
+{
+  "name": "idmc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "develop": "npx tailwindcss -i ./src/css/tailwind.css -o ./src/css/style.css --watch",
+    "build": "npx tailwindcss -i ./src/css/tailwind.css -o ./src/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
