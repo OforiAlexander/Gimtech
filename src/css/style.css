@@ -711,6 +711,10 @@ video {
   z-index: 30;
 }
 
+.z-40 {
+  z-index: 40;
+}
+
 .float-start {
   float: inline-start;
 }
@@ -933,6 +937,10 @@ video {
   height: 2.5rem;
 }
 
+.h-120 {
+  height: 82.4rem;
+}
+
 .h-2 {
   height: 0.5rem;
 }
@@ -965,16 +973,24 @@ video {
   height: 20rem;
 }
 
-.h-96 {
-  height: 24rem;
-}
-
 .h-\[64rem\] {
   height: 64rem;
 }
 
 .h-full {
   height: 100%;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.h-\[80vh\] {
+  height: 80vh;
+}
+
+.h-\[100vh\] {
+  height: 100vh;
 }
 
 .w-10 {
@@ -2282,6 +2298,11 @@ video {
 .object-center {
   -o-object-position: center;
      object-position: center;
+}
+
+.object-top {
+  -o-object-position: top;
+     object-position: top;
 }
 
 .p-2 {
